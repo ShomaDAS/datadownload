@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+
+body{    
+    text-align: center;    
+    color: white;
+    background: #000;
+    /*background-image: url("img/icono-android.gif");    */
+}
+
+#fondo{
+    width: auto;
+    height: auto;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+
+#video{
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    margin-block-end: 2rem;
+    margin: none;
+}
+
+#content{
+    text-align: justify;
+    margin-left: 3rem;
+}
+
+img{
+    width: auto;
+    height: auto;
+    margin: 0.5em auto;
+    justify-content: center;
+}
+
+#datos{
+    width: 200px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+#Bytes{
+    text-align: right;
+    color: white;
+}
+
+#ultimo{
+    width: auto;
+    height: auto;
+    background-color: black;
+    margin-top: 1rem;
+}
+
+#texto{
+    margin-top: 0;
+    font-family: cursive;
+}
